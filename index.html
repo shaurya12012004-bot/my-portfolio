@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shaurya Yadav — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar" id="topbar"><div class="wrap">
+  <nav aria-label="Main" style="position:relative">
+    <a class="mark" href="#top">Shaurya Yadav</a>
+    <div class="navright">
+      <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="iconbtn" id="theme" aria-label="Switch colour theme">◐</button>
+      <button class="iconbtn menubtn" id="menubtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</div></div>
+<div class="wrap">
+
+  <header class="hero" id="top">
+    <div class="frame"><span class="c1"></span><span class="c2"></span>
+      <h1>Shaurya Yadav</h1>
+    </div>
+    <p class="lede">Computer Science student specialising in cyber security, building autonomous drones, blockchain systems and the web interfaces around them.</p>
+    <div class="actions">
+      <a class="btn primary" href="#work">See my projects</a>
+      <a class="btn" href="mailto:shaurya12012004@gmail.com">Email me</a>
+    </div>
+  </header>
+</div>
+
+<section id="about" class="about">
+  <div class="wrap grid2">
+    <div>
+      <h2>About</h2>
+      <p>I'm a B.Tech CSE (Cyber Security) student at Pranveer Singh Institute of Technology, Kanpur. I like projects where software meets hardware: computer vision running on a drone, sensor data written to a blockchain.</p>
+      <p>I've solved 250+ problems across LeetCode, HackerRank and GFG, hold a 5-star Problem Solving rating on HackerRank, and enjoy presenting work and running technical workshops.</p>
+    </div>
+    <div class="edu">
+      <h2>Education</h2>
+      <div class="item"><h3>Pranveer Singh Institute of Technology</h3><p>B.Tech, Computer Science & Engineering (Cyber Security)</p><p>2022 – Present · CGPA 7.7/10</p></div>
+      <div class="item"><h3>K. R. Education Centre, Kanpur</h3><p>Class XII, Science — 91.33% (2021)</p></div>
+      <div class="item"><h3>K. R. Education Centre, Kanpur</h3><p>Class X — 91.33% (2019)</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <h2>Projects and experience</h2>
+    <ol class="timeline">
+      <li>
+        <div class="when">July 2025 – Present</div>
+        <div>
+          <h3>NIDAR — Autonomous Drone (Garuna Eye)</h3>
+          <p class="role">Aerial surveillance drone</p>
+          <ul>
+            <li>Real-time person detection tuned for aerial footage using YOLOv8n and OpenCV.</li>
+            <li>Integrated Raspberry Pi, DJI Action 2 and a Pixhawk flight controller for autonomous navigation.</li>
+            <li>Built fault-tolerant telemetry and dynamic route-planning logic.</li>
+          </ul>
+          <ul class="stack"><li>OpenCV</li><li>YOLOv8n</li><li>Raspberry Pi</li><li>Pixhawk</li><li>Telemetry</li></ul>
+        </div>
+      </li>
+      <li>
+        <div class="when">August 2025 – Present</div>
+        <div>
+          <h3>Blockchain-Based Agri-Food Supply Chain</h3>
+          <p class="role">IoT + smart contracts</p>
+          <ul>
+            <li>Connected temperature and humidity sensors to track food quality in real time.</li>
+            <li>Logged sensor readings on-chain for tamper-proof traceability.</li>
+            <li>Wrote smart contracts and API services for a secure producer-to-consumer flow.</li>
+          </ul>
+          <ul class="stack"><li>React.js</li><li>Solidity</li><li>Hardhat</li><li>Node.js</li><li>Ethers.js</li><li>ESP32</li><li>DHT22</li></ul>
+        </div>
+      </li>
+      <li>
+        <div class="when">Aug 2025 – Oct 2025</div>
+        <div>
+          <h3>Front-End Web Development Intern</h3>
+          <p class="role">Edunet Foundation · AICTE · IBM SkillsBuild (Remote)</p>
+          <ul>
+            <li>Developed responsive UI components in HTML, CSS and JavaScript for real product modules.</li>
+            <li>Completed mentor-guided projects and coding labs on the IBM SkillsBuild curriculum.</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="when">Sept 2024 – Oct 2024</div>
+        <div>
+          <h3>Donation Management System</h3>
+          <p class="role">Web app with payments</p>
+          <ul>
+            <li>Interactive dashboards showing live donation stats.</li>
+            <li>Dynamic donation analytics page in JavaScript.</li>
+          </ul>
+          <ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Razorpay / Stripe API</li></ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <div class="wrap grid2">
+    <div>
+      <h2>Skills</h2>
+      <dl>
+        <dt>Languages</dt><dd><span>Java</span><span>SQL</span><span>Solidity</span><span>JavaScript</span><span>HTML</span><span>CSS</span></dd>
+        <dt>Frameworks & tools</dt><dd><span>React.js</span><span>Hardhat</span><span>OpenCV</span><span>YOLOv8n</span><span>Git</span><span>VS Code</span></dd>
+        <dt>Core concepts</dt><dd><span>Data Structures & Algorithms</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span></dd>
+      </dl>
+    </div>
+    <div>
+      <h2>Certifications and achievements</h2>
+      <ul class="plain">
+        <li>Java Basics Certification — HackerRank</li>
+        <li>Blockchain Basics & Solidity 101 — Cyfrin Updraft</li>
+        <li>250+ coding problems solved on LeetCode, HackerRank and GFG</li>
+        <li>5-star rating in Problem Solving — HackerRank</li>
+        <li>Hosted technical workshops and led teams in multiple hackathons</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Let's build something</h2>
+    <p>Open to internships and full-time roles in software development, security and computer vision. Based in Kanpur, Uttar Pradesh.</p>
+    <div class="links">
+      <a href="mailto:shaurya12012004@gmail.com">shaurya12012004@gmail.com</a>
+      <a href="tel:+917985975652">+91 79859 75652</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><footer>© 2026 Shaurya Yadav</footer></div>
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
